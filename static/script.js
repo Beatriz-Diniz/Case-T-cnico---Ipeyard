@@ -49,8 +49,12 @@ $(document).ready(function() {
 
     // Reset timer while user is typing
     $('.type_msg').on('keyup', function(event) {
+        // new line with shift+enter
+        if (event.key === 'Enter' && event.shiftKey) {
+            $('textarea[name="text"]').val() + "\n";
+        }
         // send messagens with enter
-        if (event.key === 'Enter' && $('textarea[name="text"]').val()[0] != '\n') {
+        else if(event.key === 'Enter' && $('textarea[name="text"]').val()[0] != '\n') {
             $('.sendMessagens').submit(); 
         }
         else{
