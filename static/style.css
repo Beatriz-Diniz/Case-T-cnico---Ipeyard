@@ -1,0 +1,209 @@
+*{
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+body{ 
+    margin: 0; 
+    padding: 0; 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	background: linear-gradient(to right, #11111b, #181825, #313244, #181825, #11111b);
+    background-color: #181825;
+    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%2394e2d5' fill-opacity='0.03'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.chat{
+    width: 80vw;
+    height: 80vh;
+    background-color: #313244;
+    border-radius: 16px;
+    border: 1px solid #cdd6f4;
+    box-shadow: 0 0 2px 1px #cdd6f4;
+    display: flex;
+    flex-direction: left;
+}
+
+.history{
+    width: 30%;
+    height: 100%;
+    border-radius: 16px 0px 0px 16px;
+    box-sizing: border-box;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.historyText{
+    width: 90%;
+    background-color: #cdd6f4;
+    height: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #313244;
+}
+
+.messageList{
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+.buttonHist{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 95%;
+    background-color: #313244;
+    border: none;
+    border-bottom: 1px solid #cdd6f419;;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    color: #cdd6f4;
+}
+
+.buttonHist:hover{
+    background-color: #89b4fa74;
+    width: 100%;
+}
+
+.divMessages{
+    width: 70%;
+    height: 100%;
+    border: 0.5px solid #000;
+    border-radius: 0px 16px 16px 0px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+    padding-top: 2px;
+}
+
+.messagens{
+    width: 100%;
+    min-height: 90%;
+    max-height: 90%;
+    margin-left: 2px;
+    overflow-y: auto;
+    padding-bottom: 2px;
+}
+
+.sendMessagens{
+    background-color: #cdd6f4;
+    height: 10%;
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSend{
+    height: 100%;
+    width: 30px;
+    margin-right: 1%;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonSend :hover{
+    background-color: #89b4fa;
+}
+
+.bi bi-send{
+    background-color: rgb(255, 255, 255);
+}
+
+textarea {
+    flex: 1;
+    resize: none; 
+    width: 70%;
+    height: 20px;
+    font-size: 16px;
+
+    border: 0px #ffffff00;
+    border-radius: 16px;
+    background-color: #ffffff00;
+    padding: 10px;
+    margin-left: 5px;
+
+    overflow: hidden;
+}
+
+textarea::placeholder{
+    color: #313244;
+}
+
+svg{
+    color: #313244;
+    width: 25px;
+}
+
+.userMessagens{
+    width: 50%;
+    height: auto;
+    position: left;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #89b4fa;
+    color: #11111b;
+    border-radius: 8px;
+    margin-right: 2%;
+    padding: 4px;
+    padding-left: 6px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    margin-left: auto;
+}
+
+.botMessagens{
+    width: 50%;
+    height: auto;
+    position: left;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #b4befe;
+    color: #11111b;
+    border-radius: 8px;
+    margin-left: 2%;
+    padding: 4px;
+    padding-left: 6px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
