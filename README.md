@@ -8,9 +8,9 @@
 
 <h3> First Step: </h3>
 <text>Obtain a Openai Api Key and type it into the terminal:</text><br>
-<code> export OPENAI_API_KEY="yourOpenAIKey"<code>
+<code> export OPENAI_API_KEY="yourOpenAIKey"</code>
 
-<h3> To run in a terminal </h3>
+<h3> To run in a terminal: </h3>
 <code> python3 openAI.py </code>
 
 <h3> In a browser open: </h3>
