@@ -7,12 +7,20 @@ from langchain_community.callbacks import get_openai_callback
 # inicilization flask
 app = Flask(__name__, static_folder='static')
 
-# to do questions
-def question(text):
-    # Instance LLM
-    llm = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0.2)
-    res = llm.invoke(text)
+# Dicionário para armazenar instâncias de ChatOpenAI por userId
+chatInstances = {}
 
+# Instance LLM
+def get_chat_instance(userId):
+    if userId not in chatInstances:
+        chatInstances[userId] = ChatOpenAI(model="gpt-3.5-turbo-0125", temperature=0.2)
+    return chatInstances[userId]
+
+# to do questions
+def question(text, userId):
+    llm = get_chat_instance(userId)
+    print("LLM: ", llm)
+    res = llm.invoke(text)
     return res
 
 # Function to load the conversation history from the JSON file
@@ -42,7 +50,7 @@ def index():
 def response():
     questionUser = request.form['text']
     chat_id = request.form['chatId']
-    res = question(questionUser).content
+    res = question(questionUser, chat_id).content
 
     history = load_history()
     if chat_id not in history:

@@ -1,0 +1,84 @@
+{
+    "c3eaabab-840a-408f-be56-0e684ab793ec": [
+        {
+            "user": "oi",
+            "bot": "Ol\u00e1! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "gato",
+            "bot": "Un gato es un animal dom\u00e9stico de la familia de los felinos, conocido por ser un animal independiente, \u00e1gil y cari\u00f1oso. Son mascotas populares en muchos hogares y se caracterizan por su pelaje suave, sus ojos grandes y su capacidad para cazar roedores. Los gatos son animales muy limpios que pasan gran parte del d\u00eda acical\u00e1ndose y descansando. Tambi\u00e9n son conocidos por su agilidad y destreza para trepar y saltar."
+        }
+    ],
+    "da1728e1-c366-4e27-9916-0ec296c0d589": [
+        {
+            "user": "oi",
+            "bot": "Oi! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "meu nome \u00e9 bia",
+            "bot": "Ol\u00e1, Bia! Como posso te ajudar hoje?"
+        },
+        {
+            "user": "qual o meu nome?",
+            "bot": "Desculpe, n\u00e3o tenho essa informa\u00e7\u00e3o. Como devo te chamar?"
+        },
+        {
+            "user": "bia",
+            "bot": "I'm sorry, I'm not sure what you mean by \"bia.\" Can you please provide more context or clarify your question?"
+        }
+    ],
+    "b21c54f0-e710-479c-ba76-0903a904d670": [
+        {
+            "user": "oi",
+            "bot": "Ol\u00e1! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "a",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "e11f0355-c1ab-4dfb-a19e-32c5f70747b5": [
+        {
+            "user": "io",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "a",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "my name is bia",
+            "bot": "Hello Bia! How can I assist you today?"
+        },
+        {
+            "user": "qual o meu nome?\n",
+            "bot": "Desculpe, n\u00e3o tenho essa informa\u00e7\u00e3o. Como devo te chamar?"
+        }
+    ],
+    "b81fc624-4218-4a8c-b53d-22defa7a903e": [
+        {
+            "user": "a",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "b",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "02fdf170-fcd1-466d-8019-52bb6d41dbb5": [
+        {
+            "user": "aaaaaaaaaaaaaaaa",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "bbbb",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "f36f5a10-791f-4d9c-aaea-e099e562bca0": [
+        {
+            "user": "kkkkkkkkkkkkkkk",
+            "bot": "Haha, that's a lot of \"k\"s! Is there anything specific you'd like to talk about or ask me?"
+        }
+    ]
+}
