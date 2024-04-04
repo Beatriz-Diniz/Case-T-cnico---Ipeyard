@@ -48,8 +48,14 @@ function serverMessagens(response){
 $(document).ready(function() {
 
     // Reset timer while user is typing
-    $('.type_msg').on('keyup', function() {
-        resetTimer();
+    $('.type_msg').on('keyup', function(event) {
+        // send messagens with enter
+        if (event.key === 'Enter' && $('textarea[name="text"]').val()[0] != '\n') {
+            $('.sendMessagens').submit(); 
+        }
+        else{
+            resetTimer();
+        }
     });
 
     $('.sendMessagens').submit(function(e) {

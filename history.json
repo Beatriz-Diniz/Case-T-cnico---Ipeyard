@@ -80,5 +80,105 @@
             "user": "kkkkkkkkkkkkkkk",
             "bot": "Haha, that's a lot of \"k\"s! Is there anything specific you'd like to talk about or ask me?"
         }
+    ],
+    "21fb3851-36a0-4594-8825-66069d4f78da": [
+        {
+            "user": "oi\n",
+            "bot": "Oi! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "gato nomes",
+            "bot": "1. Simba\n2. Luna\n3. Whiskers\n4. Mia\n5. Oliver\n6. Bella\n7. Max\n8. Nala\n9. Leo\n10. Cleo"
+        },
+        {
+            "user": "nova lista\n",
+            "bot": "1. Comprar leite\n2. Fazer exerc\u00edcios f\u00edsicos\n3. Ler um livro\n4. Organizar o arm\u00e1rio\n5. Fazer uma lista de tarefas para a semana"
+        },
+        {
+            "user": "\n",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "1515873b-67ed-47d4-9f4d-f481bc11866f": [
+        {
+            "user": "oi",
+            "bot": "Oi! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "batata\n",
+            "bot": "Batata is the Portuguese word for sweet potato. It is a starchy, sweet-tasting root vegetable that is commonly used in cooking around the world."
+        },
+        {
+            "user": "\n",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "9cf3e25e-3fba-42f2-be61-b029512d9313": [
+        {
+            "user": "oi\n\n",
+            "bot": "Oi! Como posso ajudar voc\u00ea hoje?"
+        }
+    ],
+    "c83c30d9-f5b4-470d-a17b-157162183d5f": [
+        {
+            "user": "oi\n",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "\n",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "\n",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "\n",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "0192fc0e-ce0a-4483-b06d-161e0cdab3e7": [
+        {
+            "user": "oi\n",
+            "bot": "Ol\u00e1! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "\n",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "5e78dbe0-fe3e-45a5-bb8c-16e5a00acbe8": [
+        {
+            "user": "oi\n",
+            "bot": "Ol\u00e1! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "\n",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "38eb6d32-75ea-4115-b0c7-67c02c8455c6": [
+        {
+            "user": "oi\n",
+            "bot": "Oi! Como posso ajudar voc\u00ea hoje?"
+        },
+        {
+            "user": "\n\n",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "\n\n",
+            "bot": "Hello! How can I assist you today?"
+        },
+        {
+            "user": "\n\n",
+            "bot": "Hello! How can I assist you today?"
+        }
+    ],
+    "0ce9749e-96cf-4a2f-b6d3-fe145f890ff8": [
+        {
+            "user": "oi\n",
+            "bot": "Oi! Como posso te ajudar hoje?"
+        }
     ]
 }
