@@ -1,4 +1,4 @@
-<h1> Chatbot - Openai </h1>
+<h1> Chatbot - OpenAI </h1>
 
 <h3> Install dependences: </h3>
     
